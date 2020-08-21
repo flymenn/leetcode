@@ -2,6 +2,7 @@ package main
 
 import (
 	"algo/leetcode"
+	"fmt"
 )
 
 func main()  {
@@ -86,6 +87,12 @@ func main()  {
 	//
 	//ret := leetcode.ThreeSum(nums)
 	//fmt.Println(ret)
+
+
+	nums := []int {-1,2,1,-4};
+
+	ret := leetcode.ThreeSumClosest(nums,1)
+	fmt.Println(ret)
 
 
 
